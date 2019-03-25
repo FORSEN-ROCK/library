@@ -1,0 +1,17 @@
+# all fiels of venv
+/django_library/
+
+# default fiels django_library
+/library/manage.py
+/library/*.sqlite3
+/library/library/*.py
+!/library/library/settings.py
+!/library/library/urls.py
+/library/library/__pycache__
+/library/open_library/__init__.py
+
+# but this fiels dont ignore
+/library/open_library/migrations/
+/library/open_library/__pycache__/
+/library/open_library/!.py
+/library/uploads/
